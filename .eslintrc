@@ -1,0 +1,29 @@
+{
+  "extends": ["airbnb", "airbnb/hooks"],
+  "globals": {
+    "window": true,
+    "document": true,
+    "fetch": true,
+    "jasmine": true
+  },
+  "parser": "babel-eslint",
+  "env": {
+    "jest": true
+  },
+  "rules": {
+    "react/jsx-props-no-spreading": "off",
+    "react/jsx-filename-extension": "off",
+    "react/prop-types": "off",
+
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "jsx-a11y/label-has-for": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+
+    "no-console": "off",
+    "react/no-array-index-key": "off",
+    "no-restricted-globals": "off"
+  }
+}
